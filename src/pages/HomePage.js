@@ -1,11 +1,14 @@
-import Navbar from "../components/Navbar";
+import TopNavbar from "../components/TopNavbar";
+import { Col, Row } from "reactstrap";
 
 const HomePage = () => {
   return (
-	<div>
-	  <Navbar />
-	  <h1>Home Page</h1>
-	</div>
+    <div>
+      <TopNavbar />
+      <Row>
+        <h1>Home Page</h1>
+      </Row>
+    </div>
   );
 };
 
