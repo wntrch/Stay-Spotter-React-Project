@@ -1,13 +1,15 @@
 import TopNavbar from "../components/TopNavbar";
 import { Container } from "reactstrap";
-import RentalList from "../features/display/DisplayRentalList";
+import RentalList from "../features/display/RentalList";
 
 const ListingsPage = () => {
   return (
-    <Container>
+    <>
       <TopNavbar />
-      <RentalList />
-    </Container>
+      <div className="rental-card">
+        <RentalList />
+      </div>
+    </>
   );
 };
 
