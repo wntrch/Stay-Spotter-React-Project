@@ -1,11 +1,13 @@
-import Navbar from "../components/TopNavbar";
+import TopNavbar from "../components/TopNavbar";
+import { Container } from "reactstrap";
+import RentalList from "../features/display/DisplayRentalList";
 
 const ListingsPage = () => {
   return (
-    <div>
-      <Navbar />
-      <h1>Listings Page</h1>
-    </div>
+    <Container>
+      <TopNavbar />
+      <RentalList />
+    </Container>
   );
 };
 
