@@ -27,3 +27,8 @@ h1 {
 .top-navbar {
   background: linear-gradient(to right, #666666, #fdf200, #fff);
 }
+
+/* General */
+.hover-cursor {
+  cursor: pointer;
+}
