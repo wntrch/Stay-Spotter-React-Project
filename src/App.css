@@ -45,3 +45,7 @@ h1 {
   align-items: center;
   margin-left: 13%;
 }
+
+.forms {
+  position: relative; top: 25px;
+}
