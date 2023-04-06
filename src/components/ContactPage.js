@@ -25,12 +25,12 @@ const ContactForm = () => {
         >
 
 
-        <Form>
+        <Form className="forms">
             <FormGroup row>
                 <Label htmlFor="firstName" md='2'>
                     First Name
                 </Label>
-                <Col md='10'>
+                <Col md='8'>
                     <Field 
                         name='firstName'
                         placeholder='First Name'
@@ -46,7 +46,7 @@ const ContactForm = () => {
                 <Label htmlFor="lastName" md='2'>
                     Last Name
                 </Label>
-                <Col md='10'>
+                <Col md='8'>
                     <Field 
                     name='lastName'
                     placeholder='Last Name'
@@ -61,7 +61,7 @@ const ContactForm = () => {
                 <Label htmlFor="phoneNum" md='2'>
                     Phone
                 </Label>
-                <Col md='10'>
+                <Col md='8'>
                     <Field 
                     name='phoneNum'
                     placeholder='Phone'
@@ -76,7 +76,7 @@ const ContactForm = () => {
                 <Label htmlFor="email" md='2'>
                     Email
                 </Label>
-                <Col md='10'>
+                <Col md='8'>
                     <Field 
                     name='email'
                     placeholder='Email'
@@ -110,7 +110,7 @@ const ContactForm = () => {
                 <Label htmlFor="feedback" md='2'>
                     Your Feedback
                 </Label>
-                <Col md='10'>
+                <Col md='8'>
                     <Field 
                     name='feedback'
                     as='textarea'
@@ -120,7 +120,7 @@ const ContactForm = () => {
             </FormGroup>
 
             <FormGroup row>
-                <Col md={{ size: 10, offset: 2 }}>
+                <Col md={{ size: 10, offset: 1 }}>
                     <Button type='submit' color='primary'>
                         Send Feedback
                     </Button>
