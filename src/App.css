@@ -166,3 +166,40 @@ h4 {
 .forms {
   position: relative; top: 25px;
 }
+
+.Right {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+}
+
+.Pic {
+  flex: 0 50%;
+  max-width: 50%;
+  height: auto;
+}
+
+.Content {
+  /* padding: 25px;
+  padding-left: 10px;
+  margin: 15px 0px; */
+  padding: 35px;
+}
+
+.Content p {
+  /* color: black;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 15px 0px; */
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 15px 0px;
+}
+
+
+.Abouts {
+  /* font-size: 20px;
+  color: black;
+  padding: 30px; */
+}
