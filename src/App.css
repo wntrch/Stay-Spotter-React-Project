@@ -15,6 +15,13 @@ h1 {
 
 .logo-text {
   margin-left: 20px;
+  font-size: 1.3em;
+}
+
+.nav-center {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
 }
 
 /* .links-container {
@@ -31,6 +38,55 @@ h1 {
 /* General */
 .hover-cursor {
   cursor: pointer;
+}
+
+/* Home Page */
+.banner-container {
+  position: relative;
+}
+
+.banner-text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 2em;
+  text-align: center;
+}
+
+.search-bar {
+  width: 40vw;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #fff;
+  outline: none;
+}
+
+.search-button {
+  padding: 10px 25px 10px 25px;
+  font-size: 18px;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #fff;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+.search-button:hover {
+  background-color: #fdf200;
+  color: #000;
+}
+
+.search-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
 }
 
 /* Listings Page */
