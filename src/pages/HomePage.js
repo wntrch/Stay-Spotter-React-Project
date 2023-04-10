@@ -1,5 +1,5 @@
 import TopNavbar from "../components/TopNavbar";
-import { Row } from "reactstrap";
+import { Row, Col } from "reactstrap";
 import Banner from "../assets/img/homepagebanner.png";
 
 const HomePage = () => {
@@ -13,7 +13,9 @@ const HomePage = () => {
           style={{ width: "100%", height: "30vh", objectFit: "cover" }}
         />
         <div>
-          <h2 className="banner-text">Book your next favorite vacation rental spot</h2>
+          <h2 className="banner-text">
+            Book your next favorite vacation rental spot
+          </h2>
         </div>
         <div className="search-container">
           <input
@@ -26,7 +28,86 @@ const HomePage = () => {
           </button>
         </div>
       </div>
-      <Row></Row>
+      <div className="content-wrapper">
+        <div className="content-container">
+          <Row className="text-row">
+            <h2>
+              Discover the perfect vacation rental at your fingertips. Explore a
+              variety of listings from multiple platforms, all in one convenient
+              location.
+            </h2>
+          </Row>
+          <Row className="text-row">
+            <h2>Featured Rental Categories</h2>
+          </Row>
+          <Row className="image-row">
+            <Col sm="4">
+              <a href="/listings">
+              <img
+                className="category-image"
+                src="https://a0.muscache.com/im/pictures/55c9be62-0943-43df-98fc-35aa2c8e255d.jpg?im_w=720"
+                alt="beachside rentals"
+              />
+              </a>
+              <h3>Beachside</h3>
+            </Col>
+            <Col sm="4">
+            <a href="/listings">
+              <img
+                className="category-image"
+                src="https://a0.muscache.com/im/pictures/f9430b89-b46f-4c1a-a831-843552abd7a6.jpg?im_w=1200"
+                alt="lakefront rentals"
+              />
+              </a>
+              <h3>Lakefront</h3>
+            </Col>
+            <Col sm="4">
+            <a href="/listings">
+              <img
+                className="category-image"
+                src="https://a0.muscache.com/im/pictures/miso/Hosting-39758327/original/60631c6a-7e69-407f-a5a5-31218d7906a8.jpeg?im_w=1200"
+                alt="urban retreat rentals"
+              />
+              </a>
+              <h3>Urban Retreats</h3>
+            </Col>
+          </Row>
+        </div>
+      </div>
+      <div
+        className="content-wrapper"
+        style={{ background: "#000", color: "#fff" }}
+      >
+        <div className="content-container">
+          <Row
+            className="text-row"
+            style={{ textAlign: "left", margin: "1.5rem 0 1.5rem" }}
+          >
+            <h4 style={{ paddingBottom: "1rem" }}>
+              Why Travelers Love Using StaySpotter
+            </h4>
+            <p>
+              StaySpotter offers a unique alternative to traditional hotel
+              stays, providing travelers with the comfort, amenities, and
+              privacy of home while on vacation. Why choose StaySpotter? Because
+              we deliver exceptional value and unforgettable experiences! Say
+              goodbye to impersonal hotel rooms—our selection ranges from
+              stunning oceanfront homes with private beach access to chic city
+              condos in luxurious buildings.
+            </p>
+            <p>
+              StaySpotter connects you to an extensive collection of vacation
+              rentals across the globe, each with its own distinct personality.
+              Whether you're planning a solo business trip, a romantic getaway,
+              or a family vacation, our platform has the perfect option for you.
+              With thousands of rentals to choose from, catering to your
+              specific needs and travel style has never been easier. Discover
+              the StaySpotter difference today and create memories that will
+              last a lifetime.
+            </p>
+          </Row>
+        </div>
+      </div>
     </div>
   );
 };
