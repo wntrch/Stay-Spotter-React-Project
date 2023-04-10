@@ -19,8 +19,8 @@ const TopNavbar = () => {
         <div className="logo-container">
           <img
             src={StaySpotterLogo}
-            height="140px"
-            width="170px"
+            height="70px"
+            width="90px"
             alt="stayspotter logo"
             className="float-start"
           />
@@ -29,30 +29,34 @@ const TopNavbar = () => {
       </NavbarBrand>
 
       <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
-      <Collapse isOpen={menuOpen} navbar>
+      <Collapse
+        isOpen={menuOpen}
+        navbar
+        className={menuOpen ? "justify-content-center" : ""}
+      >
         {/* <div className="links-container"> */}
-          <Nav className="ms-auto" navbar>
-            <NavItem>
-              <NavLink className="nav-link" to="/">
-                <i className="fa fa-home fa-lg" /> Home
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink className="nav-link" to="/listings">
-                <i className="fa fa-list fa-lg" /> Listings
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink className="nav-link" to="/about">
-                <i className="fa fa-info fa-lg" /> About
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink className="nav-link" to="/contact">
-                <i className="fa fa-address-card fa-lg" /> Contact Us
-              </NavLink>
-            </NavItem>
-          </Nav>
+        <Nav className="mx-auto nav-center" navbar>
+          <NavItem>
+            <NavLink className="nav-link" to="/">
+              <i className="fa fa-home fa-lg" /> Home
+            </NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink className="nav-link" to="/listings">
+              <i className="fa fa-list fa-lg" /> Listings
+            </NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink className="nav-link" to="/about">
+              <i className="fa fa-info fa-lg" /> About
+            </NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink className="nav-link" to="/contact">
+              <i className="fa fa-address-card fa-lg" /> Contact Us
+            </NavLink>
+          </NavItem>
+        </Nav>
         {/* </div> */}
       </Collapse>
     </Navbar>
