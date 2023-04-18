@@ -163,6 +163,37 @@ h4 {
   margin-left: 13%;
 }
 
+/*Listings Detail Page */
+.additional-images {
+  width: 50%;
+  height: 250px; /* Adjust the height as needed */
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.detail-card-left {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.detail-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 300px;
+}
+
+.left-image-container {
+  width: 100%;
+  height: calc(250px * 2 + 10px);
+}
+
+/* Form */
+
 .forms {
   position: relative; top: 25px;
 }
