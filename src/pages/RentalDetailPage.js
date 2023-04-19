@@ -1,4 +1,4 @@
-import { Row, Col } from "reactstrap";
+import { Row } from "reactstrap";
 import { Rentals } from "../data/Rentals";
 import RentalDetail from "../components/RentalDetail";
 import TopNavbar from "../components/TopNavbar";
