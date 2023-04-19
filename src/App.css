@@ -164,6 +164,7 @@ h4 {
 }
 
 /*Listings Detail Page */
+
 .additional-images {
   width: 50%;
   height: 250px; /* Adjust the height as needed */
@@ -171,21 +172,33 @@ h4 {
   border-radius: 5px;
 }
 
+.button {
+  padding: 10px 25px 10px 25px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  white-space: nowrap;
+}
+
 .detail-card-left {
-  display: flex;
-  justify-content: left;
+  /* display: flex;
+  justify-content: left; */
   align-items: center;
   height: 100%;
   width: 100%;
   object-fit: cover;
-}
+} 
 
 .detail-page-container {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   padding: 0 300px;
-}
+} 
 
 .left-image-container {
   width: 100%;
@@ -195,7 +208,8 @@ h4 {
 /* Form */
 
 .forms {
-  position: relative; top: 25px;
+  position: relative;
+  top: 25px;
 }
 
 
@@ -216,4 +230,5 @@ h4 {
   line-height: 1.5;
   margin: 15px 0px;
 }
+
 
