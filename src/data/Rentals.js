@@ -49,14 +49,19 @@ export const Rentals = [
   },
   {
     id: 3,
-    name: "San Diego Condo",
+    name: "Oceanside Condo near San Diego",
     image:
-      "https://a0.muscache.com/im/pictures/55c9be62-0943-43df-98fc-35aa2c8e255d.jpg?im_w=720",
-    link: "https://www.airbnb.com/rooms/44268122?adults=2&category_tag=Tag%3A789&search_mode=flex_destinations_search&check_in=2023-03-11&check_out=2023-03-13&federated_search_id=2e62d2c5-b199-452a-a41f-4d226237f7a4&source_impression_id=p3_1677910132_HXw9HjmYSO%2BwWb8x",
-    details: "2 guests / 1 bedroom / 2 beds / 1 bath",
-    price: "$200 / night",
-    location: "Charlevoix, Michigan, United States",
-    additionalImages: [],
+      "https://a0.muscache.com/im/pictures/58493964-98ad-4061-89cd-65201e1a0165.jpg?im_w=1440",
+    link: "https://www.airbnb.com/rooms/21714631?adults=1&category_tag=Tag%3A789&children=0&enable_m3_private_room=false&infants=0&pets=0&search_mode=flex_destinations_search&check_in=2023-04-25&check_out=2023-04-30&federated_search_id=46ec69d9-b9f3-4c06-b21d-cc247c4bb6f4&source_impression_id=p3_1681881188_5YbMnVoMTvYzZFHK",
+    details: "6 guests / 2 bedrooms / 3 beds / 2 baths",
+    price: "$650 / night",
+    location: "Imperial Beach, California, United States",
+    additionalImages: [
+      "https://a0.muscache.com/im/pictures/ea6575a8-2fcf-41b3-9d80-c8affbb7ed8b.jpg?im_w=1440",
+      "https://a0.muscache.com/im/pictures/6ef0b037-a29f-4f6b-8070-32ce32930ad5.jpg?im_w=1440",
+      "https://a0.muscache.com/im/pictures/0295ced0-8f6d-4622-a6a3-cc8bb39ca06b.jpg?im_w=1200",
+      "https://a0.muscache.com/im/pictures/215e220b-e005-4056-b749-20ba765250c9.jpg?im_w=720",
+    ],
   },
   {
     id: 4,
@@ -64,10 +69,15 @@ export const Rentals = [
     image:
       "https://a0.muscache.com/im/pictures/miso/Hosting-39758327/original/60631c6a-7e69-407f-a5a5-31218d7906a8.jpeg?im_w=1200",
     link: "https://www.airbnb.com/rooms/39758327?adults=1&category_tag=Tag%3A8661&children=0&enable_m3_private_room=false&infants=0&pets=0&check_in=2023-05-07&check_out=2023-05-12&federated_search_id=d3ecaba9-83ae-442a-af32-d1f15843e7b1&source_impression_id=p3_1680274137_Gd1D9N%2Fhph3OK%2F56",
-    details: "2 guests / 1 bedroom / 2 beds / 1 bath",
-    price: "$200 / night",
-    location: "Charlevoix, Michigan, United States",
-    additionalImages: [],
+    details: "4 guests / 1 bedroom / 2 beds / 1 bath",
+    price: "$485 / night",
+    location: "New York, United States",
+    additionalImages: [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-39758327/original/be93a1a8-473e-42e1-91a9-fa8b4464eeba.jpeg?im_w=1440",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-39758327/original/502c4326-6d5f-4d0f-bbda-683940904a9d.jpeg?im_w=1440",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-39758327/original/ac06668c-4bd7-47a2-b16f-4cf3ede1d9b7.jpeg?im_w=1440",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-39758327/original/456490b2-5849-4602-ba2b-c30208bca569.jpeg?im_w=1440",
+    ],
   },
   {
     id: 5,
@@ -75,21 +85,31 @@ export const Rentals = [
     image:
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-16996051/original/48691e18-3437-480c-8905-8bbe1ba2a817.jpeg?im_w=1200",
     link: "https://www.airbnb.com/rooms/16996051?adults=2&check_in=2023-03-11&check_out=2023-03-13&federated_search_id=9de7a7ee-668e-4b26-a422-e044ebb551d8&source_impression_id=p3_1677910961_q%2FJS8l8n06qzWv6v",
-    details: "2 guests / 1 bedroom / 2 beds / 1 bath",
-    price: "$200 / night",
-    location: "Charlevoix, Michigan, United States",
-    additionalImages: [],
+    details: "4 guests / 1 bedroom / 2 beds / 1 bath",
+    price: "$192 / night",
+    location: "Charleston, Oregon, United States",
+    additionalImages: [
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-16996051/original/248415bf-e2ff-4253-8332-2d050947f465.jpeg?im_w=1440",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-16996051/original/b46572ad-4740-4aaa-baea-63dc9c0d29a4.jpeg?im_w=1440",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-16996051/original/98b31bb5-8ba0-4542-9759-78f782bbb2e3.jpeg?im_w=1440",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-16996051/original/8d127304-278e-4422-b1aa-fc8e940f673e.jpeg?im_w=1440",
+    ],
   },
   {
     id: 6,
-    name: "Vegas Strip Condo",
+    name: "Condo with View of Vegas Strip",
     image:
       "https://a0.muscache.com/im/pictures/miso/Hosting-34543794/original/1026ba88-c93f-4911-b620-7d63440ac8a2.jpeg?im_w=1200",
     link: "https://www.airbnb.com/rooms/34543794?adults=2&check_in=2023-03-11&check_out=2023-03-13&federated_search_id=9fd0c206-096f-4406-b27f-370c26c07fd1&source_impression_id=p3_1677911031_yugUtXzj1Fn1OL%2BS",
-    details: "2 guests / 1 bedroom / 2 beds / 1 bath",
-    price: "$200 / night",
-    location: "Charlevoix, Michigan, United States",
-    additionalImages: [],
+    details: "4 guests / Studio / 2 beds / 1 bath",
+    price: "$229 / night",
+    location: "Las Vegas, Nevada, United States",
+    additionalImages: [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-34543794/original/06157055-59f0-4b2f-8634-eab92b76cefa.jpeg?im_w=1440",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-34543794/original/8d33d4c5-59e0-4b0e-bc3c-f4c281466aab.jpeg?im_w=1440",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-34543794/original/efa9da30-16e8-4396-a11a-1257e976cc98.jpeg?im_w=1440",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-34543794/original/9abe98de-3451-4a54-992c-a01cc593b4bb.jpeg?im_w=1440",
+    ],
   },
   {
     id: 7,
@@ -98,9 +118,14 @@ export const Rentals = [
       "https://a0.muscache.com/im/pictures/f72dadbb-a380-4ddd-80f1-591a03693335.jpg?im_w=1200",
     link: "https://www.airbnb.com/rooms/53725437?adults=2&check_in=2023-03-25&check_out=2023-03-31&federated_search_id=5a76ae0a-fa04-4600-aeb0-42649a5d7190&source_impression_id=p3_1677911167_Yy4jAS6cLcoFqSQB",
     details: "8 guests / 3 bedrooms / 3 beds / 2 baths",
-    price: "$257 / night",
+    price: "$253 / night",
     location: "Orlando, Florida, United States",
-    additionalImages: [],
+    additionalImages: [
+      "https://a0.muscache.com/im/pictures/f24c56e1-1454-4fed-9040-9795306f0918.jpg?im_w=1200",
+      "https://a0.muscache.com/im/pictures/619cd5d6-ec49-43bb-9298-a282ca6804e4.jpg?im_w=1440",
+      "https://a0.muscache.com/im/pictures/b98460cc-d729-4148-bafe-a48542925b27.jpg?im_w=1440",
+      "https://a0.muscache.com/im/pictures/ea58fbd9-e346-46d6-9ab3-be2de5a7b55d.jpg?im_w=1440",
+    ],
   },
   {
     id: 8,
@@ -115,7 +140,7 @@ export const Rentals = [
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-554961927067383719/original/cea0e7e3-9ef3-49e5-975c-741b9813e47c.jpeg?im_w=1440",
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-554961927067383719/original/58fb2e04-fe3d-4442-b536-9a5ca375b932.jpeg?im_w=1440",
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-554961927067383719/original/ece49315-042e-4a7c-a404-64be322a7223.jpeg?im_w=1440",
-      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-554961927067383719/original/9aec9337-8d2c-47fa-9069-22796a86d258.jpeg?im_w=1440"
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-554961927067383719/original/9aec9337-8d2c-47fa-9069-22796a86d258.jpeg?im_w=1440",
     ],
   },
   {
