@@ -1,15 +1,15 @@
 import ContactPage from '../components/ContactPage';
 import TopNavbar from '../components/TopNavbar';
-import { Row } from "reactstrap";
+import wheel from '../assets/img/wheel.png';
 
 const ContactUs = () => {
     return (
+      <>
+      <TopNavbar />
       <div>
-        <Row>
-            <TopNavbar />
-        </Row>
-        <ContactPage />
+          <ContactPage />
       </div>
+      </>
     );
   };
 
