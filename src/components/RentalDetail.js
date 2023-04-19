@@ -4,8 +4,7 @@ const RentalDetail = ({ rental }) => {
   const { image, name, additionalImages, link } = rental;
 
   const handleClick = () => {
-    const url = {link};
-    window.open(url, "_blank");
+    window.open(link, "_blank");
   };
 
   return (
