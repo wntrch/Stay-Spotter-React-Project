@@ -4,25 +4,31 @@ import Walk from '../assets/img/walk.png'
 
 const About = () => {
     return (
-      <Container>
+      <div>
         <TopNavbar />
-        <Row className="Abouts">
-          <Col sm='12'>
-              <h3>About Us</h3>
-              <p>Our mission is to find every family the space they need to relax, reconnect, and enjoy precious time away together.</p>
-          </Col>
-        </Row>
-        <Row>
-          <Col className='Right' sm='12' >
-            <img className="Pic" src={Walk} />
+        <Container>
+          <Row className="Abouts">
+            <Col sm='12'>
+                <h1>About Us</h1>
+                <p className="Contentp">Our mission is to find every family the space they need to relax, reconnect, and enjoy precious time away together.</p>
+            </Col>
+          </Row>
+          <Row>
             <div>
-            <h2 className="Content">We believe in family connection</h2>
-            <p>We need each other now more than ever, and we all want more quality time with the people we love. Our focus is on the importance of connection and the joy that celebrating meaningful moments together brings. 
-            That’s the magic we’re trying to capture. That’s why we’re here.</p>          
+              <Col sm='12' >
+                <img className="Pic" src={Walk} />
+              </Col>
             </div>
-          </Col>
-        </Row>
-      </Container>
+            <Col>
+              <div>
+              <h1 className="Content">We believe in family connection</h1>
+              <p className="Contentp">We need each other now more than ever, and we all want more quality time with the people we love. Our focus is on the importance of connection and the joy that celebrating meaningful moments together brings. 
+              That’s the magic we’re trying to capture. That’s why we’re here.</p>          
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     )
   };
 
