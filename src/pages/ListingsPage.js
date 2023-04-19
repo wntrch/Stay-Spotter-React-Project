@@ -1,5 +1,4 @@
 import TopNavbar from "../components/TopNavbar";
-import { Container } from "reactstrap";
 import RentalList from "../features/display/RentalList";
 
 const ListingsPage = () => {
