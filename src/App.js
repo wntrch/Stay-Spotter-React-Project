@@ -5,6 +5,7 @@ import ContactUs from "./pages/ContactUs";
 import RentalDetailPage from "./pages/RentalDetailPage";
 import { Route, Routes } from "react-router-dom";
 import About from "./pages/About";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="contact" element={<ContactUs />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
