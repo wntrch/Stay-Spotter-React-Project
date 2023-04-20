@@ -257,12 +257,14 @@ position: relative;
 top: -50%;
 color: rgb(255, 255, 255);
 font-size: 40px;
+
 }
 .Contentps{
   position: relative;
   top: -30%;
   color: white;
   font-size: 60px;
+  
   }
 
 
@@ -289,4 +291,20 @@ font-size: 40px;
   padding: 50px 0;
   border-bottom: 1px ridge;
   min-height: 200px;
+}
+
+.forms { 
+  border: 2px solid black;
+  padding: 25px;
+  background: url("assets/img/sundowntrees.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  
+}
+Label{
+  color: white;
+}
+.form-control{
+opacity: 0.5;
 }
