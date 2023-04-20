@@ -151,12 +151,11 @@ h4 {
 }
 
 /* Listings Page */
-a {
-  text-decoration: none;
-}
+
 .rental-card-img {
   width: 100%;
   height: 225px;
+  display: block;
 }
 
 .rental-card {
@@ -166,6 +165,14 @@ a {
   margin-left: 13%;
 }
 
+/* .rental-card-wrapper {
+  display: inline-block;
+  background-color: #000;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 375px;
+} */
+
 .rental-link {
   text-decoration: none;
 }
@@ -174,6 +181,9 @@ a {
   color: #fff;
   background-color: #000;
   border-radius: 0 0 5px 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .rental-text:hover {
@@ -243,17 +253,15 @@ a {
 }
 
 .Content {
-
 }
 
-.Contentp, .Text {
-position: relative;
-top: -50%;
-color: white;
-font-size: 40px;
+.Contentp,
+.Text {
+  position: relative;
+  top: -50%;
+  color: white;
+  font-size: 40px;
 }
-
-
 
 .site-footer {
   background-image: linear-gradient(to right, #666666, #fdf200, #fff);

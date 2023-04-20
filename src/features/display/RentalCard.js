@@ -7,10 +7,17 @@ const RentalCard = ({ rental }) => {
 
   return (
     <Link to={`/listings/${id}`} className="rental-link">
-      <Card>
-        <CardImg className="rental-card-img" src={image} alt={name} style={{marginBottom: "-1px", borderRadius: "5px 5px 0 0"}} />
-      </Card>
-      <CardText className="rental-text">{name}</CardText>
+      <div className="rental-card-wrapper">
+        <Card color="dark">
+          <CardImg
+            className="rental-card-img"
+            src={image}
+            alt={name}
+            style={{ marginBottom: "-1px", borderRadius: "5px 5px 0 0" }}
+          />
+        </Card>
+        <CardText className="rental-text">{name}</CardText>
+      </div>
     </Link>
   );
 };
