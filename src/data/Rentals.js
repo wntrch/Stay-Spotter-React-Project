@@ -4,10 +4,21 @@ export const Rentals = [
     name: "Arizona Tiny Home",
     image:
       "https://a0.muscache.com/im/pictures/2e24b098-41ed-4d92-80c0-1e8d65bfbce4.jpg?im_w=1200",
-    link: "https://www.airbnb.com/rooms/40711723?check_in=2023-04-07&federated_search_id=f5dd3120-89e1-4c93-b8d4-d620ddf1104d&source_impression_id=p3_1677813421_ONKaUPjEjqCJG9eo&guests=1&adults=1&check_out=2023-04-09",
+    link: "https://www.airbnb.com/rooms/40711723?federated_search_id=f5dd3120-89e1-4c93-b8d4-d620ddf1104d&source_impression_id=p3_1677813421_ONKaUPjEjqCJG9eo&guests=1&adults=1",
     details: "4 guests / 1 bedroom / 1 bed / 1 bath",
     price: "$199 / night",
     location: "Williams, Arizona, United States",
+    amenities: [
+      "Free parking on premises",
+      "Pets allowed",
+      "Patio or balcony",
+      "Backyard",
+      "Indoor fireplace",
+      "Refrigerator",
+    ],
+    checkin: `Self check-in 
+    Check-in: 4:00 PM - 11:00 PM
+    Checkout before 10:00 AM`,
     additionalImages: [
       "https://a0.muscache.com/im/pictures/8e2b3ae0-befc-43c5-a33a-e327d1e0a5f6.jpg?im_w=1440",
       "https://a0.muscache.com/im/pictures/df9b8c89-89af-4e7e-be55-82c0b9c0bcd6.jpg?im_w=1440",
