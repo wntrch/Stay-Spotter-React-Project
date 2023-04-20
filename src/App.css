@@ -241,18 +241,42 @@ a {
   padding-top: 20px;
   position: relative;
 }
-
-.Content {
-
+.Pic2 {
+  width: 70%;
+  height: 70%;
+  padding-top: 20px;
+  position: relative;
 }
 
-.Contentp, .Text {
+.Believe {
+  margin-top: -190px;
+}
+
+.Contentp{
 position: relative;
 top: -50%;
-color: white;
+color: rgb(255, 255, 255);
 font-size: 40px;
 }
+.Contentps{
+  position: relative;
+  top: -30%;
+  color: white;
+  font-size: 60px;
+  }
 
+
+.Text {
+  margin-top: 15px;
+}
+
+.Contentpg {
+  margin-top: -150px;
+  margin-bottom: 40px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+}
 
 
 .site-footer {
