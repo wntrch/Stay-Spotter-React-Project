@@ -236,23 +236,33 @@ a {
 }
 
 .Pic {
-  flex: 0 50%;
-  max-width: 50%;
+  width: 70%;
   height: auto;
-  padding: auto;
+  padding-top: 20px;
+  position: relative;
 }
 
 .Content {
-  padding: 35px;
+
 }
 
-.Contentp {
-  font-size: 18px;
-  line-height: 1.5;
-  margin: 15px 0px;
+.Contentp, .Text {
+position: relative;
+top: -50%;
+color: white;
+font-size: 40px;
 }
+
+
+
 .site-footer {
   background-image: linear-gradient(to right, #666666, #fdf200, #fff);
   padding: 20px 0;
   margin-top: 2rem;
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
 }
