@@ -1,7 +1,7 @@
 import { Container, Col, Row } from "reactstrap";
 import { Link } from "react-router-dom";
 
-const Footer = () => {
+const Footer = (props) => {
   return (
     <footer className="site-footer">
       <Container>
@@ -32,7 +32,7 @@ const Footer = () => {
           </Col>
           <Col xs="6" sm="3" className="text-center"></Col>
           <Col sm="4" className="text-center">
-            <div style={{ paddingTop: "1rem"}}>
+            <div style={{ paddingTop: "2.0rem"}}>
             <a
               role="button"
               className="footer-link2"
