@@ -1,7 +1,7 @@
 export const Rentals = [
   {
     id: 0,
-    name: "Arizona Tiny Home",
+    name: "Tiny A-Frame Home",
     image:
       "https://a0.muscache.com/im/pictures/2e24b098-41ed-4d92-80c0-1e8d65bfbce4.jpg?im_w=1200",
     link: "https://www.airbnb.com/rooms/40711723?federated_search_id=f5dd3120-89e1-4c93-b8d4-d620ddf1104d&source_impression_id=p3_1677813421_ONKaUPjEjqCJG9eo&guests=1&adults=1",
@@ -35,6 +35,21 @@ export const Rentals = [
     details: "9 guests / 4 bedrooms / 4 beds / 3 baths",
     price: "$545 / night",
     location: "South Lake Tahoe, California, United States",
+    amenities: [
+      "Lake view",
+      "Mountain view",
+      "Public or shared beach access – Beachfront",
+      "Kitchen",
+      "Wifi",
+      "Free driveway parking on premises – 3 spaces",
+      "Shared pool",
+      "Shared hot tub",
+      "Shared sauna",
+      "TV",
+    ],
+    checkin: `Self check-in 
+      Check-in after 4:00 PM
+      Checkout before 10:00 AM`,
     additionalImages: [
       "https://a0.muscache.com/im/pictures/miso/Hosting-53045905/original/eb3873c5-178d-4aca-ac0e-7d44a131d655.jpeg?im_w=1440",
       "https://a0.muscache.com/im/pictures/miso/Hosting-53045905/original/b201289b-7354-440a-84cb-66e6558d4bf2.jpeg?im_w=1440",
@@ -51,6 +66,21 @@ export const Rentals = [
     details: "12 guests / 4 bedrooms / 7 beds / 4 bath",
     price: "$380 / night",
     location: "Orderville, Utah, United States",
+    amenities: [
+      "Valley view",
+      "Mountain view",
+      "Kitchen",
+      "Wifi",
+      "Free parking on premises",
+      "Private hot tub - available all year, open 24 hours",
+      "TV",
+      "Free washer – In unit",
+      "Free dryer – In unit",
+      "Security cameras on property",
+    ],
+    checkin: `Self check-in 
+      Check-in after 4:00 PM
+      Checkout before 10:00 AM`,
     additionalImages: [
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-780007512498865966/original/6cc7f966-5caf-481a-a43d-8e36b25a0dbf.jpeg?im_w=1440",
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-780007512498865966/original/a18b19ee-fa89-403b-93cc-eea14c5a63c6.jpeg?im_w=1440",
@@ -67,6 +97,21 @@ export const Rentals = [
     details: "6 guests / 2 bedrooms / 3 beds / 2 baths",
     price: "$650 / night",
     location: "Imperial Beach, California, United States",
+    amenities: [
+      "Ocean view",
+      "Beach access – Beachfront",
+      "Kitchen",
+      "Wifi",
+      "Free parking on premises",
+      "TV with standard cable",
+      "Free washer – In unit",
+      "Free dryer – In unit",
+      "Bathtub",
+      "Security cameras on property",
+    ],
+    checkin: `Self check-in 
+    Check-in: 4:00 PM - 11:00 PM
+    Checkout before 10:00 AM`,
     additionalImages: [
       "https://a0.muscache.com/im/pictures/ea6575a8-2fcf-41b3-9d80-c8affbb7ed8b.jpg?im_w=1440",
       "https://a0.muscache.com/im/pictures/6ef0b037-a29f-4f6b-8070-32ce32930ad5.jpg?im_w=1440",
@@ -83,6 +128,20 @@ export const Rentals = [
     details: "4 guests / 1 bedroom / 2 beds / 1 bath",
     price: "$485 / night",
     location: "New York, United States",
+    amenities: [
+      "Kitchen",
+      "Wifi",
+      "Dedicated workspace",
+      "TV with standard cable",
+      "Elevator",
+      "Air conditioning",
+      "Hair dryer",
+      "Refrigerator",
+      "Microwave",
+      "Security cameras on property",
+    ],
+    checkin: `Check-in after 4:00 PM
+    Checkout before 11:00 AM`,
     additionalImages: [
       "https://a0.muscache.com/im/pictures/miso/Hosting-39758327/original/be93a1a8-473e-42e1-91a9-fa8b4464eeba.jpeg?im_w=1440",
       "https://a0.muscache.com/im/pictures/miso/Hosting-39758327/original/502c4326-6d5f-4d0f-bbda-683940904a9d.jpeg?im_w=1440",
@@ -99,6 +158,21 @@ export const Rentals = [
     details: "4 guests / 1 bedroom / 2 beds / 1 bath",
     price: "$192 / night",
     location: "Charleston, Oregon, United States",
+    amenities: [
+      "Waterfront",
+      "Kitchen",
+      "Wifi",
+      "Dedicated workspace",
+      "Free parking on premises",
+      "TV with standard cable",
+      "Indoor fireplace",
+      "Hair dryer",
+      "Refrigerator",
+      "Microwave",
+    ],
+    checkin: `Self check-in 
+    Check-in after 4:00 PM
+    Checkout before 10:00 AM`,
     additionalImages: [
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-16996051/original/248415bf-e2ff-4253-8332-2d050947f465.jpeg?im_w=1440",
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-16996051/original/b46572ad-4740-4aaa-baea-63dc9c0d29a4.jpeg?im_w=1440",
@@ -108,13 +182,27 @@ export const Rentals = [
   },
   {
     id: 6,
-    name: "Condo with View of Vegas Strip",
+    name: "Condo Overlooking the Vibrant Vegas Strip",
     image:
       "https://a0.muscache.com/im/pictures/miso/Hosting-34543794/original/1026ba88-c93f-4911-b620-7d63440ac8a2.jpeg?im_w=1200",
     link: "https://www.airbnb.com/rooms/34543794?adults=2&check_in=2023-03-11&check_out=2023-03-13&federated_search_id=9fd0c206-096f-4406-b27f-370c26c07fd1&source_impression_id=p3_1677911031_yugUtXzj1Fn1OL%2BS",
     details: "4 guests / Studio / 2 beds / 1 bath",
     price: "$229 / night",
     location: "Las Vegas, Nevada, United States",
+    amenities: [
+      "Desert view",
+      "City skyline view",
+      "Kitchen",
+      "Wifi",
+      "Dedicated workspace",
+      "Free parking garage on premises",
+      "Shared outdoor pool",
+      "Private hot tub",
+      "Security cameras on property",
+    ],
+    checkin: `Self check-in 
+    Check-in after 3:00 PM
+    Checkout before 11:00 AM`,
     additionalImages: [
       "https://a0.muscache.com/im/pictures/miso/Hosting-34543794/original/06157055-59f0-4b2f-8634-eab92b76cefa.jpeg?im_w=1440",
       "https://a0.muscache.com/im/pictures/miso/Hosting-34543794/original/8d33d4c5-59e0-4b0e-bc3c-f4c281466aab.jpeg?im_w=1440",
@@ -131,6 +219,21 @@ export const Rentals = [
     details: "8 guests / 3 bedrooms / 3 beds / 2 baths",
     price: "$253 / night",
     location: "Orlando, Florida, United States",
+    amenities: [
+      "Lake view",
+      "Waterfront",
+      "Kitchen",
+      "Fast wifi – 361 Mbps",
+      "Free parking on premises",
+      "Private outdoor pool - available all year, open 24 hours, heated",
+      "Pets allowed",
+      `82" HDTV with Fire TV, Apple TV, Chromecast, Amazon Prime Video, Netflix`,
+      "Free washer – In unit",
+      "Security cameras on property",
+    ],
+    checkin: `Self check-in 
+    Check-in: 3:00 PM - 12:00 AM
+    Checkout before 11:00 AM`,
     additionalImages: [
       "https://a0.muscache.com/im/pictures/f24c56e1-1454-4fed-9040-9795306f0918.jpg?im_w=1200",
       "https://a0.muscache.com/im/pictures/619cd5d6-ec49-43bb-9298-a282ca6804e4.jpg?im_w=1440",
@@ -147,6 +250,20 @@ export const Rentals = [
     details: "4 guests / 1 bedroom / 1 bed / 1 bath",
     price: "$408 / night",
     location: "Avalon, California, United States",
+    amenities: [
+      "Kitchen",
+      "Wifi",
+      "Pool",
+      "Hot tub",
+      "TV",
+      "Bathtub",
+      "Pack ’n play/Travel crib",
+      "Hair dryer",
+      "Refrigerator",
+      "Microwave",
+    ],
+    checkin: `Check-in after 4:00 PM
+    Checkout before 10:00 AM`,
     additionalImages: [
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-554961927067383719/original/cea0e7e3-9ef3-49e5-975c-741b9813e47c.jpeg?im_w=1440",
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-554961927067383719/original/58fb2e04-fe3d-4442-b536-9a5ca375b932.jpeg?im_w=1440",
@@ -163,6 +280,21 @@ export const Rentals = [
     details: "4 guests / 1 bedroom / 2 beds / 1 bath",
     price: "$316 / night",
     location: "West Yellowstone, Montana, United States",
+    amenities: [
+      "Kitchen",
+      "Fast wifi – 104 Mbps",
+      "Free parking on premises",
+      "TV",
+      "Free washer – In unit",
+      "Free dryer – In unit",
+      "Bathtub",
+      "Private patio or balcony",
+      "Hair dryer",
+      "Refrigerator",
+    ],
+    checkin: `Self check-in 
+    Check-in after 4:00 PM
+    Checkout before 10:00 AM`,
     additionalImages: [
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-49718048/original/c2e78af7-700c-4630-a4e2-660b132f8557.jpeg?im_w=1440",
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-49718048/original/dab36b6f-cd58-4694-9a0e-2c4322cfae6c.jpeg?im_w=1440",
@@ -179,6 +311,21 @@ export const Rentals = [
     details: "6 guests / 2 bedrooms / 3 beds / 1.5 baths",
     price: "$320 / night",
     location: "Seattle, Washington, United States",
+    amenities: [
+      "Waterfront",
+      "Kitchen",
+      "Wifi",
+      "Free parking on premises",
+      "Pets allowed",
+      "TV",
+      "Washer",
+      "Dryer",
+      "Air conditioning",
+      "Security cameras on property",
+    ],
+    checkin: `Self check-in 
+    Check-in: 3:00 PM - 12:00 AM
+    Checkout before 11:00 AM`,
     additionalImages: [
       "https://a0.muscache.com/im/pictures/6ea1c6d6-287d-42fb-815b-ac6d2d2eb8af.jpg?im_w=1440",
       "https://a0.muscache.com/im/pictures/d5ab1fbc-472c-49bf-b226-ee7bab258a48.jpg?im_w=1440",
@@ -195,6 +342,21 @@ export const Rentals = [
     details: "2 guests / 1 bedroom / 2 beds / 1 bath",
     price: "$200 / night",
     location: "Charlevoix, Michigan, United States",
+    amenities: [
+      "Beach access",
+      "Kitchen",
+      "Wifi",
+      "Dedicated workspace",
+      "Free parking on premises",
+      "TV",
+      "Washer",
+      "Dryer",
+      "Air conditioning",
+      "Security cameras on property",
+    ],
+    checkin: `Self check-in 
+    Check-in after 4:00 PM
+    Checkout before 11:00 AM`,
     additionalImages: [
       "https://a0.muscache.com/im/pictures/miso/Hosting-661517494281863336/original/9e0898eb-404a-4c3b-9f19-3979af577950.jpeg?im_w=1200",
       "https://a0.muscache.com/im/pictures/miso/Hosting-661517494281863336/original/be063660-e82c-43f0-a37c-186d23bddd5b.jpeg?im_w=1440",

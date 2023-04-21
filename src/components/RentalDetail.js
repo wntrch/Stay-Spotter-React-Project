@@ -21,84 +21,68 @@ const RentalDetail = ({ rental }) => {
 
   return (
     <div className="detail-page-container">
-      <div style={{ marginTop: "30px" }}>
-        <h3 style={{ marginBottom: "20px" }}>{name}</h3>
-        <p style={{ fontSize: "14px" }}>{location}</p>
-      </div>
-      <Row>
-        <Col sm="6" md="5" lg="5" className="m-4">
-          <Card>
-            <div className="left-image-container">
-              <CardImg className="detail-card-left" src={image} alt={name} />
-            </div>
-          </Card>
+      <Row style={{ backgroundColor: "#666666", color: "#FFF" }}>
+        <Col sm="12">
+          <h2 className="text-center mt-4 mb-4" style={{ fontWeight: "bold" }}>
+            {name}
+          </h2>
         </Col>
-        <Col sm="6" md="5" lg="6" className="m-4">
-          <Row>
+      </Row>
+      <Row >
+        <Col sm="12" md="6">
+          <CardImg
+            src={image}
+            alt={name}
+            style={{ width: "100%", borderRadius: "8px" }}
+            className="mt-2"
+          />
+          <div className="d-flex justify-content-between mt-2">
             {additionalImages.map((image, index) => (
-              <Col key={index} sm="6" className="mb-2">
-                <Card>
-                  <CardImg
-                    top
-                    width="100%"
-                    src={image}
-                    alt={`Additional image ${index + 1}`}
-                    className="additional-images"
-                  />
-                </Card>
-              </Col>
+              <CardImg
+                key={index}
+                src={image}
+                alt={`Additional image ${index + 1}`}
+                className="additional-images"
+                style={{
+                  width: "25%",
+                  borderRadius: index === 0 || index === 3 ? "8px" : "0",
+                }}
+              />
             ))}
-          </Row>
-          <Row>
-            <Col
-              sm="6"
-              md="5"
-              lg="3"
-              className="m-4 hover-cursor"
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-              }}
-            >
-              <button onClick={handleClick} className="button">
-                Check Availability
-              </button>
-            </Col>
-          </Row>
+          </div>
+        </Col>
+        <Col sm="12" md="6" style={{ backgroundColor: "#000", color: "#FFF", margin: "0rem", borderRadius: "8px" }}>
+          <div
+            className="d-flex justify-content-center mb-4"
+            style={{ marginTop: "4rem" }}
+          >
+            <h4>{location}</h4>
+          </div>
+          <div className="d-flex justify-content-center mb-4">
+            <button onClick={handleClick} className="button">
+              Check Availability
+            </button>
+          </div>
+          <h4>Details</h4>
+          <p>{details}</p>
+          <h4>Main Amenities</h4>
+          <ul className="amenities-list">
+            {amenities.map((amenity, index) => (
+              <li key={index} className="amenity-item">
+                {amenity}
+              </li>
+            ))}
+          </ul>
+          <h4>Pricing</h4>
+          <p>{price}</p>
+          <h4>Check-in</h4>
+          {checkinLines.map((line, index) => (
+            <p key={index} style={{ marginBottom: "0.5rem" }}>
+              {line}
+            </p>
+          ))}
         </Col>
       </Row>
-      <Row>
-        <Col
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        ></Col>
-      </Row>
-      <div>
-        <Row className="text-section">
-          <Col sm="12" md="6">
-            <h4>Modern A-Frame Home</h4>
-            <p>{details}</p>
-            <h5>Main Amenities</h5>
-            <ul>
-              {amenities.map((amenities, index) => (
-                <li key={index}>{amenities}</li>
-              ))}
-            </ul>
-          </Col>
-          <Col sm="12" md="6">
-            <h4>Pricing</h4>
-            <p>{price}</p>
-            <h4>Check-in</h4>
-            {checkinLines.map((line, index) => (
-              <p key={index} style={{ marginBottom: '0.5rem' }}>{line}</p>
-            ))}
-          </Col>
-        </Row>
-      </div>
     </div>
   );
 };
