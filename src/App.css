@@ -253,12 +253,13 @@ a {
 }
 
 .Contentp{
+width: 100%;
 position: relative;
-top: -50%;
-color: rgb(255, 255, 255);
+top: -60%;
+color: rgba(1, 1, 1, 0.972);
 font-size: 40px;
-
 }
+
 .Contentps{
   position: relative;
   top: -30%;
