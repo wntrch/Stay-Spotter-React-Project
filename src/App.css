@@ -251,16 +251,24 @@ h4 {
   padding-top: 20px;
   position: relative;
 }
-
-.Content {
+.Pic2 {
+  width: 70%;
+  height: 70%;
+  padding-top: 20px;
+  position: relative;
 }
 
-.Contentp,
-.Text {
+}
+.Contentps{
   position: relative;
-  top: -50%;
+  top: -30%;
   color: white;
-  font-size: 40px;
+  font-size: 60px;
+  }
+
+
+.Text {
+  margin-top: 15px;
 }
 
 .site-footer {
