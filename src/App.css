@@ -257,17 +257,48 @@ h4 {
   padding-top: 20px;
   position: relative;
 }
+.Believe {
+  margin-top: -190px;
+}
 
-
+.Contentp{
+  width: 100%;
+  position: relative;
+  top: -60%;
+  color: rgba(1, 1, 1, 0.972);
+  font-size: 40px;
+  margin-top: 10px;
+}
 
 .Contentps{
   position: relative;
   top: -30%;
   color: white;
   font-size: 60px;
-  
-  }
+}
+.Contentpg {
+  margin-top: -150px;
+  margin-bottom: 40px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+}
+ 
 
+.forms {
+    border: 2px solid black;
+    padding: 25px;
+    background: url("assets/img/sundowntrees.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+Label{
+  color: white;
+ }
+.form-control{
+ opacity: 0.5;
+}
 
 .Text {
   margin-top: 15px;
