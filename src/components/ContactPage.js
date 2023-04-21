@@ -24,7 +24,6 @@ const ContactForm = () => {
         validate ={validateContactForm}
         >
 
-
         <Form className="forms">
             <FormGroup row>
                 <Label htmlFor="firstName" md='2'>
