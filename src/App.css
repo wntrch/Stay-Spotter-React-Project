@@ -165,13 +165,11 @@ h4 {
   margin-left: 13%;
 }
 
-/* .rental-card-wrapper {
-  display: inline-block;
-  background-color: #000;
-  border-radius: 5px;
-  overflow: hidden;
-  width: 375px;
-} */
+.rental-detail-title {
+  background-color: #666666;
+  color: #FFF;
+}
+
 
 .rental-link {
   text-decoration: none;
@@ -250,27 +248,12 @@ h4 {
   height: calc(250px * 2 + 10px);
 }
 
-/* Footer */
-.footer-link {
-  padding-top: 1rem;
-  text-decoration: none;
-  color: #000;
-}
 
-.footer-link:hover {
-  text-decoration: none;
-  color: #fdf200;
-}
-
-.footer-link2 {
-  text-decoration: none;
-  color: #000;
-  padding-top: 1rem;
-}
-
-.footer-link2:hover {
-  text-decoration: none;
-  color: #666666;
+.section-divider {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  margin: 1.5rem 0;
 }
 
 /* Form */
@@ -339,14 +322,38 @@ Label{
   margin-top: 15px;
 }
 
-.site-footer {
-  background-image: linear-gradient(to right, #666666, #fdf200, #fff);
-  padding: 20px 0;
-  margin-top: 2rem;
-}
-
 .row-content {
   padding: 50px 0;
   border-bottom: 1px ridge;
   min-height: 200px;
+}
+
+/* Footer */
+
+.footer-link {
+  padding-top: 1rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.footer-link:hover {
+  text-decoration: none;
+  color: #fdf200;
+}
+
+.footer-link2 {
+  text-decoration: none;
+  color: #000;
+  padding-top: 1rem;
+}
+
+.footer-link2:hover {
+  text-decoration: none;
+  color: #666666;
+}
+
+.site-footer {
+  background-image: linear-gradient(to right, #666666, #fdf200, #fff);
+  padding: 20px 0;
+  margin-top: 0rem;
 }
