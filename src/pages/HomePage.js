@@ -1,6 +1,9 @@
 import TopNavbar from "../components/TopNavbar";
 import { Row, Col } from "reactstrap";
 import Banner from "../assets/img/homepagebanner.png";
+import airbnblogo from "../assets/img/airbnb.jpg";
+import tripadvisorlogo from "../assets/img/tripadvisor.png";
+import vrbologo from "../assets/img/vrbo.jpg";
 
 const HomePage = () => {
   return (
@@ -43,31 +46,31 @@ const HomePage = () => {
           <Row className="image-row">
             <Col sm="4">
               <a href="/listings">
-              <img
-                className="category-image"
-                src="https://a0.muscache.com/im/pictures/55c9be62-0943-43df-98fc-35aa2c8e255d.jpg?im_w=720"
-                alt="beachside rentals"
-              />
+                <img
+                  className="category-image"
+                  src="https://a0.muscache.com/im/pictures/55c9be62-0943-43df-98fc-35aa2c8e255d.jpg?im_w=720"
+                  alt="beachside rentals"
+                />
               </a>
               <h3>Beachside</h3>
             </Col>
             <Col sm="4">
-            <a href="/listings">
-              <img
-                className="category-image"
-                src="https://a0.muscache.com/im/pictures/f9430b89-b46f-4c1a-a831-843552abd7a6.jpg?im_w=1200"
-                alt="lakefront rentals"
-              />
+              <a href="/listings">
+                <img
+                  className="category-image"
+                  src="https://a0.muscache.com/im/pictures/f9430b89-b46f-4c1a-a831-843552abd7a6.jpg?im_w=1200"
+                  alt="lakefront rentals"
+                />
               </a>
               <h3>Lakefront</h3>
             </Col>
             <Col sm="4">
-            <a href="/listings">
-              <img
-                className="category-image"
-                src="https://a0.muscache.com/im/pictures/miso/Hosting-39758327/original/60631c6a-7e69-407f-a5a5-31218d7906a8.jpeg?im_w=1200"
-                alt="urban retreat rentals"
-              />
+              <a href="/listings">
+                <img
+                  className="category-image"
+                  src="https://a0.muscache.com/im/pictures/miso/Hosting-39758327/original/60631c6a-7e69-407f-a5a5-31218d7906a8.jpeg?im_w=1200"
+                  alt="urban retreat rentals"
+                />
               </a>
               <h3>Urban Retreats</h3>
             </Col>
@@ -107,6 +110,54 @@ const HomePage = () => {
             </p>
           </Row>
         </div>
+      </div>
+      <div
+        style={{
+          background: "#666666",
+          color: "#FFF",
+          padding: "1rem",
+          margin: "0 auto",
+        }}
+      >
+        <Row className="text-row">
+          <h2>Including Listings from Rental Sites</h2>
+        </Row>
+        <Row className="image-row">
+          <Col sm="4">
+            <a
+              href="https://www.airbnb.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img className="category-image" src={airbnblogo} alt="Airbnb" />
+            </a>
+            <h3>Airbnb</h3>
+          </Col>
+          <Col sm="4">
+            <a
+              href="https://www.vrbo.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img className="category-image" src={vrbologo} alt="VRBO" />
+            </a>
+            <h3>VRBO</h3>
+          </Col>
+          <Col sm="4">
+            <a
+              href="https://www.booking.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="category-image"
+                src={tripadvisorlogo}
+                alt="trip advisor"
+              />
+            </a>
+            <h3>TripAdvisor</h3>
+          </Col>
+        </Row>
       </div>
     </div>
   );

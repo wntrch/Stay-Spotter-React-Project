@@ -10,6 +10,11 @@
 }
 
 /* Top Navbar */
+
+.custom-nav-wrapper {
+  white-space: nowrap;
+}
+
 h1 {
   font-size: 1.5em;
   color: #000;
@@ -23,12 +28,6 @@ h1 {
 .logo-text {
   margin-left: 20px;
   font-size: 1.3em;
-}
-
-.nav-center {
-  display: flex;
-  justify-content: center;
-  flex-grow: 1;
 }
 
 /* .links-container {
@@ -167,9 +166,8 @@ h4 {
 
 .rental-detail-title {
   background-color: #666666;
-  color: #FFF;
+  color: #fff;
 }
-
 
 .rental-link {
   text-decoration: none;
@@ -226,7 +224,6 @@ h4 {
   color: #000;
 }
 
-
 .detail-card-left {
   /* display: flex;
   justify-content: left; */
@@ -248,11 +245,15 @@ h4 {
   height: calc(250px * 2 + 10px);
 }
 
-
 .section-divider {
   border: 0;
   height: 1px;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0)
+  );
   margin: 1.5rem 0;
 }
 
@@ -279,7 +280,7 @@ h4 {
   margin-top: -190px;
 }
 
-.Contentp{
+.Contentp {
   width: 100%;
   position: relative;
   top: -60%;
@@ -288,7 +289,7 @@ h4 {
   margin-top: 10px;
 }
 
-.Contentps{
+.Contentps {
   position: relative;
   top: -30%;
   color: white;
@@ -301,21 +302,20 @@ h4 {
   padding: 10px;
   box-shadow: 5px 10px;
 }
- 
 
 .forms {
-    border: 2px solid black;
-    padding: 25px;
-    background: url("assets/img/sundowntrees.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
+  border: 2px solid black;
+  padding: 25px;
+  background: url("assets/img/sundowntrees.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
 }
-Label{
+Label {
   color: white;
- }
-.form-control{
- opacity: 0.5;
+}
+.form-control {
+  opacity: 0.5;
 }
 
 .Text {
