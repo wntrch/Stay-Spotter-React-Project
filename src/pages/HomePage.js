@@ -2,7 +2,7 @@ import TopNavbar from "../components/TopNavbar";
 import { Row, Col } from "reactstrap";
 import Banner from "../assets/img/homepagebanner.png";
 import airbnblogo from "../assets/img/airbnb.jpg";
-import tripadvisorlogo from "../assets/img/tripadvisor.png";
+import tripadvisorlogo from "../assets/img/tripadvisor.jpg";
 import vrbologo from "../assets/img/vrbo.jpg";
 
 const HomePage = () => {
@@ -120,44 +120,51 @@ const HomePage = () => {
         }}
       >
         <Row className="text-row">
-          <h2>Including Listings from Rental Sites</h2>
+          <h2>Featured Listings From...</h2>
         </Row>
-        <Row className="image-row">
-          <Col sm="4">
-            <a
-              href="https://www.airbnb.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img className="category-image" src={airbnblogo} alt="Airbnb" />
-            </a>
-            <h3>Airbnb</h3>
-          </Col>
-          <Col sm="4">
-            <a
-              href="https://www.vrbo.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img className="category-image" src={vrbologo} alt="VRBO" />
-            </a>
-            <h3>VRBO</h3>
-          </Col>
-          <Col sm="4">
-            <a
-              href="https://www.booking.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                className="category-image"
-                src={tripadvisorlogo}
-                alt="trip advisor"
-              />
-            </a>
-            <h3>TripAdvisor</h3>
-          </Col>
-        </Row>
+        <div className="featured-logo-container">
+          <Row className="image-row">
+            <Col sm="4">
+              <a
+                href="https://www.airbnb.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img className="featured-logo" src={airbnblogo} alt="Airbnb" />
+              </a>
+              <h3>Airbnb</h3>
+            </Col>
+            <Col sm="4">
+              <a
+                href="https://www.vrbo.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="featured-logo2"
+                  style={{ height: "280px" }}
+                  src={vrbologo}
+                  alt="VRBO"
+                />
+              </a>
+              <h3>VRBO</h3>
+            </Col>
+            <Col sm="4">
+              <a
+                href="https://www.tripadvisor.com/Rentals"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="featured-logo"
+                  src={tripadvisorlogo}
+                  alt="trip advisor"
+                />
+              </a>
+              <h3>TripAdvisor</h3>
+            </Col>
+          </Row>
+        </div>
       </div>
     </div>
   );
