@@ -1,10 +1,10 @@
 import "./App.css";
 import HomePage from "./pages/HomePage";
 import ListingsPage from "./pages/ListingsPage";
-import ContactUs from "./pages/ContactUs";
+import ContactUs from "./pages/ContactPage";
 import RentalDetailPage from "./pages/RentalDetailPage";
 import { Route, Routes } from "react-router-dom";
-import About from "./pages/About";
+import About from "./pages/AboutPage";
 import Footer from "./components/Footer";
 
 function App() {

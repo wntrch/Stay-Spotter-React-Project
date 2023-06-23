@@ -1,4 +1,4 @@
-import { Card, CardImg, Col, Row } from "reactstrap";
+import { CardImg, Col, Row } from "reactstrap";
 
 const RentalDetail = ({ rental }) => {
   const {

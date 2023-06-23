@@ -1,7 +1,7 @@
 import ContactPage from '../components/ContactPage';
 import TopNavbar from '../components/TopNavbar';
 
-const ContactUs = () => {
+const Contact = () => {
     return (
       <>
       <TopNavbar />
@@ -12,4 +12,4 @@ const ContactUs = () => {
     );
   };
 
-export default ContactUs;
+export default Contact;
