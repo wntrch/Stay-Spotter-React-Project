@@ -1,29 +1,29 @@
 export const Rentals = [
   {
     id: 0,
-    name: "Tiny A-Frame Home",
+    name: "Forest Cabin",
     image:
       "https://a0.muscache.com/im/pictures/2e24b098-41ed-4d92-80c0-1e8d65bfbce4.jpg?im_w=1200",
-    link: "https://www.airbnb.com/rooms/40711723?federated_search_id=f5dd3120-89e1-4c93-b8d4-d620ddf1104d&source_impression_id=p3_1677813421_ONKaUPjEjqCJG9eo&guests=1&adults=1",
-    details: "4 guests / 1 bedroom / 1 bed / 1 bath",
-    price: "$199 / night",
-    location: "Williams, Arizona, United States",
+    link: "https://www.airbnb.com/rooms/8227821?category_tag=Tag%3A5348&enable_m3_private_room=true&search_mode=flex_destinations_search&source_impression_id=p3_1687531807_0eL4pSyv2KWaM0Hy&previous_page_section_name=1000&federated_search_id=e2cddfec-1fa4-4e25-b2d0-248e55f42bbf&guests=1&adults=1",
+    details: "6 guests / 2 bedrooms / 4 bed / 1 bath",
+    price: "$178 / night",
+    location: "Payson, Arizona, United States",
     amenities: [
       "Free parking on premises",
       "Pets allowed",
-      "Patio or balcony",
+      "Dedicated workspace",
       "Backyard",
-      "Indoor fireplace",
-      "Refrigerator",
+      "Fire pit",
+      "Game room",
     ],
     checkin: `Self check-in 
-    Check-in: 4:00 PM - 11:00 PM
-    Checkout before 10:00 AM`,
+    Check-in: after 3:00 PM
+    Checkout before 11:00 AM`,
     additionalImages: [
-      "https://a0.muscache.com/im/pictures/8e2b3ae0-befc-43c5-a33a-e327d1e0a5f6.jpg?im_w=1440",
-      "https://a0.muscache.com/im/pictures/df9b8c89-89af-4e7e-be55-82c0b9c0bcd6.jpg?im_w=1440",
-      "https://a0.muscache.com/im/pictures/37560e1e-a47d-48fd-be15-c20c42a09e07.jpg?im_w=1440",
-      "https://a0.muscache.com/im/pictures/2d70b539-b5a1-406f-8e6b-0c4524a07fd0.jpg?im_w=1440",
+      "https://a0.muscache.com/im/pictures/179e18be-f5a8-478e-ae57-cb83420ddd4e.jpg?im_w=1440",
+      "https://a0.muscache.com/im/pictures/60fdfec3-ec9e-4413-8cec-759a583edc7d.jpg?im_w=1440",
+      "https://a0.muscache.com/im/pictures/a58250b9-629d-4cfb-bf08-0e1464c089ef.jpg?im_w=1440",
+      "https://a0.muscache.com/im/pictures/acb2fb44-ef3d-41eb-a522-726257cc6554.jpg?im_w=1440",
     ],
   },
   {

@@ -11,7 +11,7 @@ const About = () => {
           <Row className="Abouts">
             <Col sm='12'>
             <h1 className="Text">About Us</h1>
-                <img className="Pic" src={hammock} />
+                <img className="Pic" src={hammock} alt="hammock"/>
                 <div className="Contentp" col-sm>
                   <p>Our mission is to find every <br />family the space they need to relax, 
                             reconnect,<br /> and enjoy precious time away together.</p>
