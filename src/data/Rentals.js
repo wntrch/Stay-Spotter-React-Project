@@ -3,7 +3,7 @@ export const Rentals = [
     id: 0,
     name: "Forest Cabin",
     image:
-      "https://a0.muscache.com/im/pictures/2e24b098-41ed-4d92-80c0-1e8d65bfbce4.jpg?im_w=1200",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-8227821/original/c1084351-5116-4c84-80e7-cf9af7ac5d16.jpeg?im_w=1200",
     link: "https://www.airbnb.com/rooms/8227821?category_tag=Tag%3A5348&enable_m3_private_room=true&search_mode=flex_destinations_search&source_impression_id=p3_1687531807_0eL4pSyv2KWaM0Hy&previous_page_section_name=1000&federated_search_id=e2cddfec-1fa4-4e25-b2d0-248e55f42bbf&guests=1&adults=1",
     details: "6 guests / 2 bedrooms / 4 bed / 1 bath",
     price: "$178 / night",

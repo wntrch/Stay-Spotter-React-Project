@@ -15,11 +15,6 @@ const HomePage = () => {
           alt="beachside banner"
           style={{ width: "100%", height: "30vh", objectFit: "cover" }}
         />
-        <div>
-          <h2 className="banner-text">
-            Book your next favorite vacation rental spot
-          </h2>
-        </div>
         <div className="search-container">
           <input
             type="text"
@@ -79,7 +74,7 @@ const HomePage = () => {
       </div>
       <div
         className="content-wrapper"
-        style={{ background: "#000", color: "#fff" }}
+        style={{ background: "#353941", color: "#fff" }}
       >
         <div className="content-container">
           <Row
@@ -113,7 +108,7 @@ const HomePage = () => {
       </div>
       <div
         style={{
-          background: "#666666",
+          background: "#353941",
           color: "#FFF",
           padding: "1rem",
           margin: "0 auto",

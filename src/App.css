@@ -17,7 +17,11 @@
 
 h1 {
   font-size: 1.5em;
-  color: #000;
+  color: #fff;
+}
+
+.icon {
+  color: #fff;
 }
 
 .logo-container {
@@ -30,6 +34,22 @@ h1 {
   font-size: 1.3em;
 }
 
+.nav-item-content i.fa {
+  color: #fff;
+}
+
+.nav-item-content:hover i.fa {
+  color: #a6a6a6;
+}
+
+.nav-item-content {
+  color: #fff;
+}
+
+.nav-item-content:hover {
+  color: #a6a6a6;
+}
+
 /* .links-container {
   display: flex;
   align-items: flex-start;
@@ -38,7 +58,7 @@ h1 {
 } */
 
 .top-navbar {
-  background: linear-gradient(to right, #666666, #fdf200, #fff);
+  background-color: #353941;
 }
 
 /* General */
@@ -77,7 +97,8 @@ h1 {
 }
 
 .content-wrapper {
-  background: linear-gradient(to right, #666666, #fdf200, #fff);
+  background-color: #353941;
+  color: #fff;
 }
 
 h2 {
@@ -121,11 +142,6 @@ h4 {
   background: transparent;
 }
 
-/* padding: 2rem;
-margin: 0 auto;
-max-width: 1200px;
-background: transparent; */
-
 @media (max-width: 576px) {
   .search-bar {
     width: 80vw;
@@ -156,10 +172,15 @@ background: transparent; */
   color: #fff;
   cursor: pointer;
   outline: none;
+  transition: transform 0.1s ease-in-out;
+}
+
+.search-button:active {
+  transform: scale(0.97);
 }
 
 .search-button:hover {
-  background-color: #fdf200;
+  background-color: #a6a6a6;
   color: #000;
 }
 
@@ -361,27 +382,27 @@ Label {
 .footer-link {
   padding-top: 1rem;
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 
 .footer-link:hover {
   text-decoration: none;
-  color: #fdf200;
+  color: #a6a6a6;
 }
 
 .footer-link2 {
   text-decoration: none;
-  color: #000;
+  color: #fff;
   padding-top: 1rem;
 }
 
 .footer-link2:hover {
   text-decoration: none;
-  color: #666666;
+  color: #a6a6a6;
 }
 
 .site-footer {
-  background-image: linear-gradient(to right, #666666, #fdf200, #fff);
+  background-color: #000;
   padding: 20px 0;
   margin-top: 0rem;
 }

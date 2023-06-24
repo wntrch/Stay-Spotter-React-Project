@@ -8,7 +8,7 @@ import {
   NavItem,
 } from "reactstrap";
 import { NavLink } from "react-router-dom";
-import StaySpotterLogo from "../assets/img/logo.png";
+import StaySpotterLogo from "../assets/img/sslogo.png";
 
 const TopNavbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -46,22 +46,31 @@ const TopNavbar = () => {
           <Nav navbar>
             <NavItem>
               <NavLink className="nav-link" to="/">
-                <i className="fa fa-home fa-lg" /> Home
+                <span className="nav-item-content">
+                  {" "}
+                  <i className="fa fa-home fa-lg icon" /> Home
+                </span>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink className="nav-link" to="/listings">
-                <i className="fa fa-list fa-lg" /> Listings
+                <span className="nav-item-content">
+                  <i className="fa fa-list fa-lg icon" /> Listings
+                </span>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink className="nav-link" to="/about">
-                <i className="fa fa-info fa-lg" /> About
+                <span className="nav-item-content">
+                  <i className="fa fa-info fa-lg icon" /> About
+                </span>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink className="nav-link" to="/contact">
-                <i className="fa fa-address-card fa-lg" /> Contact Us
+                <span className="nav-item-content">
+                  <i className="fa fa-address-card fa-lg icon" /> Contact Us
+                </span>
               </NavLink>
             </NavItem>
           </Nav>
