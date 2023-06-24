@@ -1,6 +1,5 @@
 import { Row, Col } from "reactstrap";
 import RentalCard from "./RentalCard";
-import RentalDetail from "../../components/RentalDetail";
 import { Rentals } from "../../data/Rentals";
 
 const RentalList = ({ rental }) => {

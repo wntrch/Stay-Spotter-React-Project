@@ -4,8 +4,33 @@ import Banner from "../assets/img/homepagebanner.png";
 import airbnblogo from "../assets/img/airbnb.jpg";
 import tripadvisorlogo from "../assets/img/tripadvisor.jpg";
 import vrbologo from "../assets/img/vrbo.jpg";
+import { useState, useEffect } from "react";
+import SearchBar from "../components/SearchBar";
+import { Rentals } from "../data/Rentals";
+import axios from "axios";
 
 const HomePage = () => {
+  const [search, setSearch] = useState("");
+  const [filteredData, setFilteredData] = useState([]);
+  const [listings, setListings] = useState(Rentals);
+
+  // useEffect(() => {
+  //   async function fetchListings() {
+  //     const response = await axios.get("api-url");
+  //     setListings(response.data);
+  //   }
+
+  //   fetchListings();
+  // }, []);
+
+  useEffect(() => {
+    setFilteredData(
+      listings.filter((listing) =>
+        listing.name.toLowerCase().includes(search.toLowerCase())
+      )
+    );
+  }, [search, listings]);
+
   return (
     <div>
       <TopNavbar />
@@ -15,19 +40,18 @@ const HomePage = () => {
           alt="beachside banner"
           style={{ width: "100%", height: "30vh", objectFit: "cover" }}
         />
-        <div className="search-container">
-          <input
-            type="text"
-            placeholder="Enter your next destination..."
-            className="search-bar"
-          />
-          <button className="search-button">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </button>
-        </div>
+        <SearchBar search={search} setSearch={setSearch} />
       </div>
       <div className="content-wrapper">
         <div className="content-container">
+          <div className="filtered-results">
+            {filteredData.map((listing) => (
+              <div key={listing.id}>
+                <h2>{listing.name}</h2>
+                <p>{listing.description}</p>
+              </div>
+            ))}
+          </div>
           <Row className="text-row">
             <h2>
               Discover the perfect vacation rental at your fingertips. Explore a

@@ -232,7 +232,7 @@ h4 {
 }
 
 .rental-text:hover {
-  background-color: #fdf200;
+  background-color: #a6a6a6;
   color: #000;
 }
 
@@ -240,9 +240,8 @@ h4 {
 
 .additional-images {
   width: 50%;
-  height: 250px; /* Adjust the height as needed */
+  height: 250px;
   object-fit: cover;
-  border-radius: 5px;
 }
 
 .amenity-item {
@@ -266,11 +265,16 @@ h4 {
   cursor: pointer;
   outline: none;
   white-space: nowrap;
+  transition: transform 0.1s ease-in-out;
 }
 
 .button:hover {
-  background-color: #fdf200;
+  background-color: #a6a6a6;
   color: #000;
+}
+
+.button:active {
+  transform: scale(0.97);
 }
 
 .detail-card-left {
@@ -286,7 +290,7 @@ h4 {
   /* display: flex;
   justify-content: center;
   align-items: center; */
-  padding: 0 2rem;
+  /* padding: 0 2rem; */
 }
 
 .left-image-container {
