@@ -7,7 +7,6 @@ import vrbologo from "../assets/img/vrbo.jpg";
 import { useState, useEffect } from "react";
 import SearchBar from "../components/SearchBar";
 import { Rentals } from "../data/Rentals";
-import axios from "axios";
 
 const HomePage = () => {
   const [search, setSearch] = useState("");
